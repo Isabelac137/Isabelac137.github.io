@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Lite - Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Logo X Lite" class="logo-image">
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="feed.html">Feed</a>
+                <a href="contato.html">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="contact-section">
+            <div class="contact-container">
+                <!-- Formulário de Contato -->
+                <div class="contact-form">
+                    <h2>Entre em Contato</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <!-- Informações de Contato -->
+                <div class="contact-info">
+                    <h3>Outras Formas de Contato</h3>
+                    <div class="info-item">
+                        <span class="icon">📧</span>
+                        <p>contato@xlite.com</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <span class="icon">📱</span>
+                        <p>(21) 98765-4321</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <span class="icon">🏢</span>
+                        <p>Av. Brasil, 1000<br>Rio de Janeiro - RJ</p>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Nossas Redes Sociais</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">📘</a>
+                            <a href="#" class="social-icon">📸</a>
+                            <a href="#" class="social-icon">🎵</a>
+                            <a href="#" class="social-icon">▶️</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
